@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            border-width: 8px;
+            margin: 10px;
+            background-color: moccasin;
+        }
+        .hide {
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+        #wintxt, #errtxt, #errtxt1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #errtxt, #errtxt1,.firstBox, #secondBox {
+            padding: 10px;
+            }
+        #wintxt {
+            background-color: green;
+        }
+    </style>
+    <script>
+        function participant() {
+            var msg = document.getElementById("input").value;
+            var msg1 = document.getElementById("input1").value;
+            input1.classList.add("border");
+            if (msg.length == msg1.length) {
+                input1.classList.remove("border-danger");
+                input1.classList.add("border-success");
+                var bull = 0;
+                var cow = 0;
+                for (i = 0; i < msg.length; i++) {
+                    if (msg[i] == msg1[i]) {
+                        cow += 1;
+                    }
+                    else {
+                        for (j = 0; j < msg.length; j++) {
+                            if (msg[i] == msg1[j] && i != j) {
+                                bull += 1;
+                            }
+                        }
+                    }
+                }
+                document.getElementById("errtxt1").innerHTML = cow + " COW " + bull + " BULL";
+                if (cow == msg.length) {
+                    document.getElementById("wintxt").innerHTML = "User wins the game ";
+                }
+            } else {
+                input1.classList.add("border-danger");
+                document.getElementById("errtxt1").innerHTML = "you should enter " + msg.length + " letters"
+                document.getElementById("wintxt").innerHTML = "";
+            }
+        }
+        function question() {
+            var input = document.getElementById("input");
+            var msg = document.getElementById("input").value
+            input.classList.add("border");
+            if (input.value == "") {
+                input.classList.add("border-danger");
+                document.getElementById("errtxt").innerHTML = "You should enter a Word"
+            } else {
+                input.classList.remove("border-danger");
+                document.getElementById("errtxt").innerHTML = "The word is " + msg.length + " characters long."
+                document.getElementById("input").disabled = true;
+                document.getElementById('secondBox').className = "show";
+            }
+        }
+        </script>
+    </head>
+    <body class="text-center">
+        <section class="container">
+            <h1>The Cow and The Bull Game</h1>
+        </section>
+        <section class="container">
+            <div class="input-group firstBox">
+                <input type="password" class="form-control" id="input" placeholder="Enter Word">&nbsp;&nbsp;
+                <button type="submit" class="btn btn-primary" onclick="question()">Click</button>
+            </div>
+            <span id="errtxt"></span>
+        </section>
+        <section class="container">
+            <div id="secondBox" class="input-group hide">
+                <input type="text" class="form-control" id="input1" placeholder="Enter Word">
+                <br />
+                <button type="submit" class="btn btn-success" onclick="participant()">Click</button>
+            </div>
+            <span id="errtxt1"></span>
+            <br />
+        </section>
+        <span id="wintxt"></span>
+    </body>
+</html>
