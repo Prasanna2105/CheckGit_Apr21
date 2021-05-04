@@ -1,0 +1,13 @@
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\bin\Debug\netcoreapp3.1\DictionaryProject.exe
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\bin\Debug\netcoreapp3.1\DictionaryProject.deps.json
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\bin\Debug\netcoreapp3.1\DictionaryProject.runtimeconfig.json
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\bin\Debug\netcoreapp3.1\DictionaryProject.runtimeconfig.dev.json
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\bin\Debug\netcoreapp3.1\DictionaryProject.dll
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\bin\Debug\netcoreapp3.1\DictionaryProject.pdb
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\obj\Debug\netcoreapp3.1\DictionaryProject.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\obj\Debug\netcoreapp3.1\DictionaryProject.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\obj\Debug\netcoreapp3.1\DictionaryProject.AssemblyInfo.cs
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\obj\Debug\netcoreapp3.1\DictionaryProject.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\obj\Debug\netcoreapp3.1\DictionaryProject.dll
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\obj\Debug\netcoreapp3.1\DictionaryProject.pdb
+C:\Users\DELL\Desktop\Softura\Day13\DictionarySolution\DictionaryProject\obj\Debug\netcoreapp3.1\DictionaryProject.genruntimeconfig.cache
