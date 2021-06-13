@@ -1,0 +1,7 @@
+C:\Users\DELL\Desktop\Softura\Visual Studio\ADO.NET\ADO solution\ADO Practice\bin\Debug\ADO Practice.exe.config
+C:\Users\DELL\Desktop\Softura\Visual Studio\ADO.NET\ADO solution\ADO Practice\bin\Debug\ADO Practice.exe
+C:\Users\DELL\Desktop\Softura\Visual Studio\ADO.NET\ADO solution\ADO Practice\bin\Debug\ADO Practice.pdb
+C:\Users\DELL\Desktop\Softura\Visual Studio\ADO.NET\ADO solution\ADO Practice\obj\Debug\ADO Practice.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Softura\Visual Studio\ADO.NET\ADO solution\ADO Practice\obj\Debug\ADO Practice.exe
+C:\Users\DELL\Desktop\Softura\Visual Studio\ADO.NET\ADO solution\ADO Practice\obj\Debug\ADO Practice.pdb
+C:\Users\DELL\Desktop\Softura\Visual Studio\ADO.NET\ADO solution\ADO Practice\obj\Debug\ADO Practice.csproj.AssemblyReference.cache
